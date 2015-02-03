@@ -19,7 +19,6 @@ def get_links(lines, position, hierarchy):
         if line == '':
             position += 1
             continue
-        print(line)
         match = pattern.search(line)
         if match is None:
             return links, position
@@ -39,7 +38,6 @@ def get_categories(lines, position, hierarchy):
         if line == '':
             position += 1
             continue
-        print(line)
         match = pattern.search(line)
         if match is None:
             return cats, position
@@ -63,7 +61,6 @@ def get_boards(lines, position, hierarchy):
         if line == '':
             position += 1
             continue
-        print(line)
         match = pattern.search(line)
         if match is None:
             return divs, position
@@ -95,7 +92,6 @@ def get_sections(lines, position, hierarchy):
         if line == '':
             position += 1
             continue
-        print(line)
         match = pattern.search(line)
         if match is None:
             return trs, position
@@ -122,7 +118,6 @@ if __name__ == "__main__":
 
     html_code = lxml.html.tostring(html)
 
-    print(lxml.html.tostring(html, pretty_print=True))
     res_f = open(output_file, 'wb')
     res_f.write(html_code)
     res_f.close()
