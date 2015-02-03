@@ -1,0 +1,10 @@
+#header
+board.domain imageboard
+-$category
+-b random
+-d discuss
+#header
+board333.domain imageboard333
+-$category444
+-b random111
+-d discuss2221

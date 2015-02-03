@@ -1,0 +1,56 @@
+<table cellpadding="0" border="0" width="100%" cellspacing="0" class="category">
+	<tbody>
+		<tr>
+			<td class="header">header</td>
+		</tr>
+		<tr>
+			<td class="list">
+				<div class="fib">
+					<a href="http://board.domain" target="main" id="board">imageboard</a>
+					<a id="plus" onclick="toggle(this, 'imageboard');">[+]</a>
+				</div>
+				<div style="display: none;" id="imageboard">
+					<div>
+						<a id="cat" onclick="toggle(this, 'board.domaincategory');">
+							<u>category</u>
+						</a>
+					</div>
+					<div id="board.domaincategory">
+						<div>
+							<a href="board.domain/b/" target="main">random</a>
+						</div>
+						<div>
+							<a href="board.domain/d/" target="main">discuss</a>
+						</div>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="header">header</td>
+		</tr>
+		<tr>
+			<td class="list">
+				<div class="fib">
+					<a href="http://board333.domain" target="main" id="board">imageboard333</a>
+					<a id="plus" onclick="toggle(this, 'imageboard333');">[+]</a>
+				</div>
+				<div style="display: none;" id="imageboard333">
+					<div>
+						<a id="cat" onclick="toggle(this, 'board333.domaincategory444');">
+							<u>category444</u>
+						</a>
+					</div>
+					<div id="board333.domaincategory444">
+						<div>
+							<a href="board333.domain/b/" target="main">random111</a>
+						</div>
+						<div>
+							<a href="board333.domain/d/" target="main">discuss2221</a>
+						</div>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
